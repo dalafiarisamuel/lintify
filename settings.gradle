@@ -1,0 +1,2 @@
+include ':app', ':lintify', ':lintlog'
+rootProject.name='Lint Checker'
