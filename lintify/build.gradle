@@ -13,14 +13,14 @@ lintOptions {
 
 dependencies {
 
-    compileOnly "com.android.tools.lint:lint-api:26.5.3"
-    compileOnly "com.android.tools.lint:lint-checks:26.5.3"
+    compileOnly "com.android.tools.lint:lint-api:27.0.1"
+    compileOnly "com.android.tools.lint:lint-checks:27.0.1"
     compileOnly "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     testImplementation "junit:junit:4.13"
-    testImplementation "com.android.tools.lint:lint:26.5.3"
-    testImplementation "com.android.tools.lint:lint-tests:26.5.3"
-    testImplementation "com.android.tools:testutils:26.5.3"
-    testImplementation 'com.android.tools.lint:lint-checks:26.5.3'
+    testImplementation "com.android.tools.lint:lint:27.0.1"
+    testImplementation "com.android.tools.lint:lint-tests:27.0.1"
+    testImplementation "com.android.tools:testutils:27.0.1"
+    testImplementation 'com.android.tools.lint:lint-checks:27.0.1'
 }
 
 jar {
